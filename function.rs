@@ -1,12 +1,12 @@
 fn main(){
     println!("Calling game function");
 
-    //another_function(5);
+    another_function(5);
     game(70, 'A');
     let y = {
         let x = 5;
         x+2
-        //println!("value of x is {x}")
+        println!("value of x is {x}")
     };
     println!("value of x is: {y}");
     let z = five();
